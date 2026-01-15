@@ -1,0 +1,51 @@
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# VS / Rider / VS Code
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Packages / tools
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+# Если используешь restore — лучше хранить packages вне репо
+# или оставить только:
+# /packages/*/
+# !/packages/build/
+# !/packages/repositories.config
+
+# Coverage / analysis
+TestResults/
+*.coverage
+*.coveragexml
+.coverage/
+.opencover.xml
+.coverageinfo
+
+# Cache / temp
+*.cache
+*.tmp
+*.log
+~$*
+*.db
+*.pid
+
+# Secrets (пример — настрой под себя)
+appsettings.Development.json
+appsettings.*.local.json
+*.Secret.json
+
+# OS files
+.DS_Store
+Thumbs.db
