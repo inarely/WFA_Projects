@@ -1,4 +1,4 @@
-# WinForms Task Manager
+# 1) WinForms Task Manager
 
 A simple Windows Forms (WFA/WinForms) application for managing tasks.  
 The goal of this project is to demonstrate practical C# desktop UI skills: event handling, DataGridView usage, CRUD operations, and saving/loading data from a file.
